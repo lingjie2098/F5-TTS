@@ -18,4 +18,6 @@ conda activate f5-tts
 conda info --envs
 
 pip install -e .
-pip install -r requirements.txt
+
+# api.py need.
+pip install -r api_requirements.txt

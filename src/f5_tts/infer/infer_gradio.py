@@ -841,7 +841,7 @@ If you're having issues, try converting your reference audio to WAV or MP3, clip
 def main(port, host, share, api, root_path):
     global app
     print("Starting app...")
-    app.queue(api_open=api).launch(server_name=host, server_port=port, share=share, show_api=api, root_path=root_path)
+    app.queue(api_open=api).launch(server_name=host, server_port=port, share=share, show_api=api, root_path=root_path, inbrowser=True)
 
 
 if __name__ == "__main__":
